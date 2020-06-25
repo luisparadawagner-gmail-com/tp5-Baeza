@@ -1,0 +1,4 @@
+[   
+    { "nombre": "Carlos", "apellido": "Gomez", "edad": 67, "direccion": "Rivadavia 334" },
+    { "nombre": "Emilio", "apellido": "Baeza", "edad": 40, "direccion": "BS AS 59" },
+    { "nombre": "Natalia", "apellido": "Rios", "edad": 23, "direccion": "Tucuman 123" }] 

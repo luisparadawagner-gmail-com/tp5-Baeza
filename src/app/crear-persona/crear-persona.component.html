@@ -1,0 +1,31 @@
+<h1>Ingresar</h1>
+
+<form [formGroup]='altaForm' (ngSubmit)=submit()>
+    <div class="datosAlta">
+        <label>nombre
+            <input type="text" formControlName="nombre">
+        </label>
+        <br>
+        <label>apellido
+            <input type="text" formControlName="apellido">
+        </label>
+        <br>
+        <label>edad
+            <input type="number" formControlName="edad">
+        </label>
+        <br>
+        <label>direccion
+            <input type="direccion" formControlName="direccion">
+        </label>
+
+    </div>
+
+    
+     Status Formulario: {{altaForm.status}}
+
+     <!-- <button >Guardar</button> -->
+
+     <button mat-raised-button color="primary" type="submit" routerLink="/consultar-persona" routerLinkActive="active" >Guardar</button>
+
+    <!-- <button type="submit"[rout="['/modificacion-component',altaForm.value]">Guardar</button> -->
+</form>
